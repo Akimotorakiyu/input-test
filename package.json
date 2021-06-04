@@ -1,0 +1,16 @@
+{
+  "name": "input-test",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "湫曗 <autumnsilverleaves@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "serve": "vite"
+  },
+  "devDependencies": {
+    "vite": "^2.3.6",
+    "vite-plugin-windicss": "^0.17.1",
+    "windicss": "^3.1.0"
+  },
+  "dependencies": {}
+}
