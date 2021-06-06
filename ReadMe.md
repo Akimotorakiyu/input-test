@@ -68,3 +68,7 @@
 | compositionend [你]                  | input insertCompositionText false 你 | compositionend [你]                        |
 |                                      |                                      | keydown [" "] false false                  |
 | keyup [" "] false false              | keyup [" "] false false              | keyup [" "] false false                    |
+
+#### 总结
+
+不同浏览器实现的顺序不一致
