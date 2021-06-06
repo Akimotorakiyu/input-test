@@ -15,8 +15,19 @@ element.addEventListener("compositionupdate", (event) => {
 element.addEventListener("compositionend", (event) => {
   console.log("compositionend", event.data, logEvent ? event : " ");
 });
+element.addEventListener("beforeinput", (event) => {
+  console.log(
+    "beforeinput",
+    event.inputType,
+    event.isComposing,
+    event.data,
+    logEvent ? event : " "
+  );
+});
+
 element.addEventListener("input", (_event) => {
   const event = _event as InputEvent;
+
   console.log(
     "input",
     event.inputType,
