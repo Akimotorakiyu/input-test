@@ -34,8 +34,20 @@ element.addEventListener("change", (_event) => {
   );
 });
 element.addEventListener("keydown", (event) => {
-  console.log("keydown", event.key, event.isComposing, logEvent ? event : " ");
+  console.log(
+    "keydown",
+    event.key,
+    event.isComposing,
+    event.repeat,
+    logEvent ? event : " "
+  );
 });
 element.addEventListener("keyup", (event) => {
-  console.log("keydown", event.key, event.isComposing, logEvent ? event : " ");
+  console.log(
+    "keyup",
+    event.key,
+    event.isComposing,
+    event.repeat,
+    logEvent ? event : " "
+  );
 });

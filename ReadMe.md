@@ -37,3 +37,11 @@
    2. safari inputType 取 insertFromComposition isComposing
 
 ## with keyboard event
+
+| chrome                     | firefox                    | safari                     |
+| -------------------------- | -------------------------- | -------------------------- |
+| keydown [a] false false    | keydown [a] false false    | keydown [a] false false    |
+| input insertText false [a] | input insertText false [a] | input insertText false [a] |
+| keydown [a] false true     | keydown [a] false true     | keydown [a] false true     |
+| input insertText false [a] | input insertText false [a] | input insertText false [a] |
+| keyup [a] false false      | keyup [a] false false      | keyup [a] false false      |
