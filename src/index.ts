@@ -1,6 +1,8 @@
 import "virtual:windi.css";
 
 const element = document.getElementById("container");
+element.contentEditable = "true";
+element.focus();
 
 const logEvent = false;
 
