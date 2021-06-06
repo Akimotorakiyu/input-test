@@ -38,6 +38,8 @@ https://www.w3.org/TR/input-events-2/
    1. chrome inputType 取 compositionend
    2. firefox inputType 取 compositionend
    3. safari inputType 取 compositionend
+3. 处理更新事件，监听 compositionupdate
+4. 记录 中文组合 状态 监听 compositionstart compositionstend
 
 ## with keyboard event
 
